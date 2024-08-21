@@ -27,7 +27,7 @@ With
     switch (insertScanMode) {
       ...
       case CLUSTERING_SERVICE_GROUPED_EXECUTION:
-        return checkIsDmlSource();
+        return true;
     }
   }
 ```
